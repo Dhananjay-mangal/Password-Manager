@@ -1,16 +1,49 @@
-<<<<<<< HEAD
-# Password-Manager
-=======
-# React + Vite
+# 🔐 Password Manager Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Password Manager application that allows users to securely store, manage, and retrieve their credentials.  
+Built using modern web technologies with a focus on performance, simplicity, and clean architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔑 Store and manage passwords securely
+- ➕ Add, update, and delete credentials
+- ⚡ Fast and responsive UI
+- 🔄 Seamless frontend-backend communication
+- 🌐 REST API integration
+- 🧠 Clean and modular code structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 75d1a40 (first commit)
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Axios
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- CORS
+- dotenv
+
+---
+
+## 📂 Project Structure
+Password-Manager/
+│
+├── backend/
+│ ├── server.js # Express server
+│ ├── .env # Environment variables
+│ ├── package.json
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── package.json
+│
+└── README.md
